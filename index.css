@@ -1,0 +1,124 @@
+* {
+    /*border: 1px solid lime;*/
+    text-decoration: none;
+    color: rgb(229, 229, 229);
+    background-color: rgb(20, 20, 20);
+    font-family: 'Inter';
+  }
+  
+  .header--position {
+    /*stackoverflow #3593594*/
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .header--style {
+    background-color: black;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .header__left {
+    display: flex;
+    align-items: center;
+    column-gap: 2vw;
+  }
+  
+  .header__links {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2vw;
+  }
+  
+  .header__img {
+    width: 10rem;
+    aspect-ratio: 2.5;
+  }
+  
+  .header__right {
+    display: flex;
+    align-items: center;
+    column-gap: 1vw;
+  }
+  
+  .header__acc {
+    display: flex;
+    align-items: center;
+  }
+  
+  .outer-div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20vh;
+  }
+  
+  .section-main {
+    display: flex;
+  }
+  
+  .section-main__div-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section-main__div-right {
+    flex: 1;
+  }
+  
+  .div-left__outer {
+    display: flex;
+  }
+  
+  .div-left__img {
+    flex: 1;
+  }
+  
+  .div-left__inner {
+    flex: 1;
+  }
+  
+  .section-images {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section-images__div-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .section-images img {
+    width: 18vw;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+  }
+  
+  .footer__nav-icons {
+    display: flex;
+    column-gap: 2vw;
+  }
+  
+  .footer__nav-links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+  }
+  
+  .footer__nav-links__row {
+    display: flex;
+  }
+  
+  .footer__nav-links__row a {
+    flex: 1;
+  }
+  
